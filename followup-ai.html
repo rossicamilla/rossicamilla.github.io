@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="FollowUp AI — Product Case Study by Camilla Rossi">
+    <title>FollowUp AI — Camilla Rossi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="case-study.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html" class="nav-back">← Camilla Rossi</a>
+            <span class="nav-label label">Case Study</span>
+        </nav>
+    </header>
+
+    <main class="case-study">
+
+        <section class="cs-hero">
+            <p class="label">Product Case Study — 2025</p>
+            <h1>FollowUp AI</h1>
+            <p class="cs-tagline">An internal B2B CRM built from scratch — pipeline management, AI-powered email analysis, and Outlook integration — for a food import and distribution company.</p>
+            <div class="cs-meta">
+                <div class="cs-meta-item">
+                    <span class="label">Stack</span>
+                    <p>Node.js · Supabase · Claude API · Whisper · Microsoft Graph</p>
+                </div>
+                <div class="cs-meta-item">
+                    <span class="label">Status</span>
+                    <p>Active development at Confluencia</p>
+                </div>
+                <div class="cs-meta-item">
+                    <span class="label">Role</span>
+                    <p>Sole designer & developer</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="cs-body">
+
+            <div class="cs-block">
+                <h2>The Problem</h2>
+                <p>Confluencia, a B2B food import and distribution company, had no centralized system to manage client relationships. 100+ active business contacts were scattered across tools, emails were buried in OneDrive folders inaccessible to any intelligent system, follow-ups were consistently missed, and the sales pipeline had no visibility.</p>
+                <p>The team had no shared task management and no single place where everything lived together.</p>
+            </div>
+
+            <div class="cs-block">
+                <h2>My Role</h2>
+                <p>I identified the problem myself — nobody asked me to build this. I noticed the disorganization firsthand and decided to design and lead the development of an internal CRM from scratch.</p>
+            </div>
+
+            <div class="cs-block">
+                <h2>Why Not HubSpot?</h2>
+                <p>Before building, we evaluated existing CRMs including HubSpot. It wasn't the right fit — the base plan lacked key features we needed (automated follow-up alerts via Outlook calendar), while higher tiers included extensive functionality we would never use.</p>
+                <p>For a small B2B team, we needed something leaner and more specific. Building internally was the more efficient and cost-effective choice.</p>
+            </div>
+
+            <div class="cs-block">
+                <h2>What I Built</h2>
+                <ul class="cs-list">
+                    <li>
+                        <span class="list-title">Contact &amp; pipeline management</span>
+                        Centralized tracking of 100+ B2B contacts with sales stage visibility
+                    </li>
+                    <li>
+                        <span class="list-title">Outlook integration via Microsoft Azure</span>
+                        Connecting emails to the CRM so Claude AI can read, analyze, and extract insights from client conversations
+                    </li>
+                    <li>
+                        <span class="list-title">AI-powered email analysis</span>
+                        Understanding where each deal stands based on email content
+                    </li>
+                    <li>
+                        <span class="list-title">Whisper integration</span>
+                        Transcribing and processing voice messages
+                    </li>
+                    <li>
+                        <span class="list-title">Smart alerts</span>
+                        Automated reminders via email and Outlook calendar when a contact hasn't responded
+                    </li>
+                    <li>
+                        <span class="list-title">Task manager</span>
+                        Assignable tasks for both admin and team members
+                    </li>
+                    <li>
+                        <span class="list-title">Dual interface</span>
+                        Optimized for both desktop and mobile use
+                    </li>
+                </ul>
+            </div>
+
+            <div class="cs-block">
+                <h2>Key Decisions</h2>
+                <p>Prioritized simplicity for non-technical users while building powerful AI features underneath. Scoped the product tightly — only what the team would actually use. Chose Supabase for the database, Node.js for the backend, and Claude API for the intelligence layer.</p>
+            </div>
+
+            <div class="cs-block">
+                <h2>What I Learned</h2>
+                <p>Azure/Microsoft Graph integration, UX structure for internal tools, how to scope an AI product around real business constraints, and how to evaluate build vs. buy decisions.</p>
+            </div>
+
+            <div class="cs-status">
+                <span class="status-dot"></span>
+                <span>Currently in active development at Confluencia</span>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <span>Camilla Rossi © 2026</span>
+        <a href="index.html">← Back to portfolio</a>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
